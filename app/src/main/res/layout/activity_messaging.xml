@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/chat_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessagingActivity">
+
+    <LinearLayout
+        android:id="@+id/lier"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/dark_grey">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/ic_back"
+            app:tint="@color/dark_yellow"
+            />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="89dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/prof_img"
+                android:layout_width="52dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:text="TextView"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/dark_yellow"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/realtive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:padding="5dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/btn_send"
+            android:elevation="10dp"
+            app:cardCornerRadius="50dp">
+
+            <EditText
+                android:id="@+id/text_send"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:hint="Type a message..."
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <ImageButton
+            android:id="@+id/btn_send"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/custom_send_background"
+            android:src="@drawable/ic_baseline_send_24"
+            app:tint="@color/dark_yellow" />
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/msg_view"
+        android:layout_width="match_parent"
+        android:layout_height="748dp"
+        android:layout_above="@+id/realtive"
+        android:layout_below="@+id/lier"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="2dp" />
+
+
+</RelativeLayout>

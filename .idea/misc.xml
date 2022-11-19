@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Evento/app/src/main/res/drawable-v24/custom_button.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable-v24/custom_button_reg.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable-v24/custom_search.xml" value="0.12" />
+        <entry key="..\:/Evento/app/src/main/res/drawable-v24/custom_search_icon.xml" value="0.121" />
+        <entry key="..\:/Evento/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable-v24/ic_search_bar.xml" value="0.121" />
+        <entry key="..\:/Evento/app/src/main/res/drawable-v24/ic_search_focused.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable-v24/ic_warning_orange_24dp.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable-v24/rounded_rect_yellow.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable-v24/rounded_red_button.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable-v24/rounded_white_bg.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable-v24/white_circle.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable/background_left.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable/background_right.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable/bottom_nav_icon_color.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable/chat_background.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable/custom_border.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable/custom_focus.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable/custom_send_background.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable/custom_yellow_stroke.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable/ic_account.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable/ic_chat.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable/ic_chat_bubble.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/drawable/ic_lock.xml" value="0.249" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_about_us.xml" value="0.15945945945945947" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_about_us_activty.xml" value="0.15033783783783783" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_cmp_add_package.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_cmp_edit_package.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_cmp_edit_profile_activty.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_cmp_edit_profile_loc.xml" value="0.15304054054054053" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_cmp_home.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_cmp_login_verify.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_cmp_reg_details.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_cmp_resgistration.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_cmp_verify_reg.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_forgot_password.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_guest_home.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_location_reg_select.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_main.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_messaging.xml" value="0.2" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_user_book_confirm.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_user_cmp_details.xml" value="0.152" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_user_edit_profile.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_user_home.xml" value="0.4" />
+        <entry key="..\:/Evento/app/src/main/res/layout/activity_user_registration.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/book_cmp_item.xml" value="0.16148648648648647" />
+        <entry key="..\:/Evento/app/src/main/res/layout/book_item_layout.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/book_usr_item.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/chat_item_left.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/chat_item_right.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/chat_list_item.xml" value="0.264" />
+        <entry key="..\:/Evento/app/src/main/res/layout/dialog_delete.xml" value="0.264" />
+        <entry key="..\:/Evento/app/src/main/res/layout/filter_company.xml" value="0.16148648648648647" />
+        <entry key="..\:/Evento/app/src/main/res/layout/forgot_pass_cutom_dialog.xml" value="0.16148648648648647" />
+        <entry key="..\:/Evento/app/src/main/res/layout/fragment_account_cmp.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/fragment_chat_cmp.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/fragment_cmp_book.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/fragment_guest_account.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/fragment_guest_book.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/fragment_guest_chat.xml" value="0.15304054054054053" />
+        <entry key="..\:/Evento/app/src/main/res/layout/fragment_guest_home.xml" value="0.15304054054054053" />
+        <entry key="..\:/Evento/app/src/main/res/layout/fragment_home_cmp.xml" value="0.176" />
+        <entry key="..\:/Evento/app/src/main/res/layout/fragment_user_account.xml" value="0.2" />
+        <entry key="..\:/Evento/app/src/main/res/layout/fragment_user_book.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/fragment_user_chat.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/fragment_user_home.xml" value="0.16" />
+        <entry key="..\:/Evento/app/src/main/res/layout/layout_dialog_profile.xml" value="0.1" />
+        <entry key="..\:/Evento/app/src/main/res/layout/package_item_layout.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/package_usr_item.xml" value="0.1" />
+        <entry key="..\:/Evento/app/src/main/res/layout/pass2_cutom_dialog.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/pass_change_layout.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/layout/usr_home_item.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/menu/cmp_bottom_nav.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/menu/guest_bottom_nav.xml" value="0.16216216216216217" />
+        <entry key="..\:/Evento/app/src/main/res/menu/usr_bottom_nav.xml" value="0.16216216216216217" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/drawable-v24/custom_button.xml" value="0.135" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/drawable-v24/custom_button_reg.xml" value="0.135" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/drawable-v24/custom_progress_load.xml" value="0.231" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/drawable-v24/white_circle.xml" value="0.231" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/drawable/bottom_nav_icon_color.xml" value="0.135" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/drawable/button_nav_icon_color.xml" value="0.135" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/drawable/custom_border.xml" value="0.135" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/drawable/custom_focus.xml" value="0.135" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/drawable/custom_tab.xml" value="0.135" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/drawable/ic_account.xml" value="0.135" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/drawable/ic_arrow.xml" value="0.16" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.135" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/drawable/ic_building.xml" value="0.135" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/drawable/ic_number_blocks.xml" value="0.135" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/layout/activity_cmp_home.xml" value="0.176953125" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/layout/activity_cmp_login_verify.xml" value="0.1875" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/layout/activity_cmp_reg_details.xml" value="0.176" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/layout/activity_cmp_resgistration.xml" value="0.1875" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/layout/activity_cmp_verify_reg.xml" value="0.176953125" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/layout/activity_location_reg_select.xml" value="0.176953125" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/layout/activity_maps.xml" value="0.1875" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/layout/activity_user_home.xml" value="0.1875" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/layout/activity_user_registration.xml" value="0.1875" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/layout/fragment_account_cmp.xml" value="0.1875" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/layout/fragment_chat_cmp.xml" value="0.1875" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/layout/fragment_home_cmp.xml" value="0.1875" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/layout/package_item_layout.xml" value="0.264" />
+        <entry key="..\:/Programs/PG/Sem1/Android/AndroidStudioProjects/Evento/app/src/main/res/menu/cmp_bottom_nav.xml" value="0.1875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

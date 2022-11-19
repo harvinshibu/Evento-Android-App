@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "907599962030",
+    "firebase_url": "https://evento-db076-default-rtdb.firebaseio.com",
+    "project_id": "evento-db076",
+    "storage_bucket": "evento-db076.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907599962030:android:4b38f4c32a2746fc43f23f",
+        "android_client_info": {
+          "package_name": "com.harvin.evento"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907599962030-2eh4rspa8j6cdg0dbvmfjouaan1h3l88.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.harvin.evento",
+            "certificate_hash": "6cf164f2cf341d526ca5570dbc3919b582aac6a0"
+          }
+        },
+        {
+          "client_id": "907599962030-ollb9ukh36nk6fgafralacinaiqcv9i9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH34y6URHXoRmMlNz47ix3BfWOUpaqnXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907599962030-ollb9ukh36nk6fgafralacinaiqcv9i9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

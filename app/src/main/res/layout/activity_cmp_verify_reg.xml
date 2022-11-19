@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".Company.CmpVerifyRegActivity">
+
+    <RelativeLayout
+        android:id="@+id/rProgLayout"
+        android:orientation="vertical"
+        android:layout_width="50dp"
+        android:visibility="gone"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@drawable/white_circle"
+        android:elevation="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/custom_progress_load" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo_paaji"
+                android:gravity="center"
+                android:text="Evento"
+                android:textColor="#232f34"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/verify_otp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="center"
+                    android:text="Verification Code"
+                    android:textColor="#232f34"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_light"
+                    android:gravity="center"
+                    android:text="Please enter the otp sent to"
+                    android:textColor="#232f34"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/roboto_light"
+                    android:gravity="center"
+                    android:text="+91-1234567890"
+                    android:textColor="#232f34"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/user_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/etC1"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/custom_border"
+                    android:ems="10"
+                    android:maxLength="1"
+                    android:gravity="center"
+                    android:inputType="phone"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toStartOf="@+id/etC2"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintHorizontal_chainStyle="packed"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <EditText
+                    android:id="@+id/etC2"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/custom_border"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="phone"
+                    android:textSize="20sp"
+                    android:maxLength="1"
+                    app:layout_constraintBottom_toBottomOf="@+id/etC1"
+                    app:layout_constraintEnd_toStartOf="@+id/etC3"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/etC1"
+                    app:layout_constraintTop_toTopOf="@+id/etC1" />
+
+                <EditText
+                    android:id="@+id/etC3"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/custom_border"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="phone"
+                    android:textSize="20sp"
+                    android:maxLength="1"
+                    app:layout_constraintBottom_toBottomOf="@+id/etC1"
+                    app:layout_constraintEnd_toStartOf="@+id/etC4"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/etC2"
+                    app:layout_constraintTop_toTopOf="@+id/etC1" />
+
+                <EditText
+                    android:id="@+id/etC4"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/custom_border"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="phone"
+                    android:textSize="20sp"
+                    android:maxLength="1"
+                    app:layout_constraintBottom_toBottomOf="@+id/etC1"
+                    app:layout_constraintEnd_toStartOf="@+id/etC5"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/etC3"
+                    app:layout_constraintTop_toTopOf="@+id/etC1" />
+
+                <EditText
+                    android:id="@+id/etC5"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/custom_border"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="phone"
+                    android:textSize="20sp"
+                    android:maxLength="1"
+                    app:layout_constraintBottom_toBottomOf="@+id/etC1"
+                    app:layout_constraintEnd_toStartOf="@+id/etC6"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/etC4"
+                    app:layout_constraintTop_toTopOf="@+id/etC1" />
+
+                <EditText
+                    android:id="@+id/etC6"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/custom_border"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="phone"
+                    android:textSize="20sp"
+                    android:maxLength="1"
+                    app:layout_constraintBottom_toBottomOf="@+id/etC1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/etC5"
+                    app:layout_constraintTop_toTopOf="@+id/etC1"
+                    app:layout_constraintVertical_bias="0.0" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/roboto_light"
+                        android:gravity="right"
+                        android:text="Didn't receive the code ?"
+                        android:textColor="@color/light_grey"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/reg_resent_otp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/roboto_bold"
+                        android:paddingStart="4dp"
+                        android:text="Resent OTP"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/verify_reg_otp"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custom_button"
+                    android:text="Verify OTP"
+                    android:textColor="@color/dark_yellow" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

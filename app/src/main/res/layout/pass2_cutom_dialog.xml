@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    android:id="@+id/dialog_frame_flat"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:elevation="10dp"
+    app:cardCornerRadius="30dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="@color/dark_grey">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/dialog_layout_flat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="left">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/dialog_title_flat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Password :"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/dark_grey"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/dialog_message_flat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/roboto_light"
+            android:textColor="@color/dark_grey"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:text="Enter the password of your current account."/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/editPass_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:endIconMode="password_toggle"
+            app:startIconDrawable="@drawable/ic_pass">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_passProf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password Here"
+                android:textColor="#232f34"
+                android:textColorHint="#4a6572" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right|bottom"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="20dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_action_cancel"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/custom_button_reg"
+                android:gravity="center"
+                android:layout_gravity="bottom|right"
+                android:clickable="true"
+                android:text="Cancel"
+                android:textColor="@color/dark_grey"
+                android:focusable="true"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_action_ok"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/custom_button"
+                android:gravity="center"
+                android:layout_gravity="bottom|right"
+                android:clickable="true"
+                android:text="OK"
+                android:textColor="@color/dark_yellow"
+                android:focusable="true"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</com.google.android.material.card.MaterialCardView>

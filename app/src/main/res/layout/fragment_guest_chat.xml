@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    tools:context=".GuestFragment.GuestChatFragment">
+
+
+        <LinearLayout
+            android:id="@+id/noBookLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="visible"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/nochats" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:text="You Need To Login First."
+                android:textColor="#232f34"
+                android:textSize="24sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/usr_login_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_button"
+                android:text="Login"
+                android:textColor="@color/dark_yellow" />
+        </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    android:id="@+id/dialog_frame_flat"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:elevation="10dp"
+    app:cardCornerRadius="30dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="@color/dark_yellow">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/dialog_layout_flat"
+        android:layout_width="300dp"
+        android:minWidth="300dp"
+        android:layout_height="300dp"
+        android:minHeight="300dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/dialog_icon_flat"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/ic_warning_orange_24dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/dialog_title_flat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete !"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/dark_grey"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/dialog_message_flat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/roboto_light"
+            android:textColor="@color/dark_grey"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:text="Are you sure ?"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_action_delete"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/custom_button_reg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:text="delete"
+            android:textColor="@color/white"
+            android:focusable="true"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.google.android.material.card.MaterialCardView>

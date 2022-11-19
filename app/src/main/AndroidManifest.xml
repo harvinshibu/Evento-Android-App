@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Evento"
+        tools:targetApi="31">
+        <activity
+            android:name=".AboutUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUsActivty"
+            android:exported="false" />
+        <activity
+            android:name=".GuestHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CmpEditProfileLocActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CmpEditProfileActivty"
+            android:exported="false" />
+        <activity
+            android:name=".MessagingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserBookConfirmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AbcActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserEditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserCmpDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CmpEditPackageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CmpAddPackageActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/api_key" />
+
+        <activity
+            android:name=".Company.LocationRegSelectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Company.CmpRegDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Company.CmpVerifyRegActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Company.CmpLoginVerifyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Company.CmpHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Company.CmpRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Users.UserRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Users.UserHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Company.CmpAddPackageActivity" />
+        <activity android:name=".Company.CmpEditPackageActivity" />
+        <activity android:name=".Users.UserCmpDetailsActivity" />
+        <activity android:name=".Users.UserEditProfileActivity" />
+        <activity android:name=".Users.UserBookConfirmActivity" />
+        <activity android:name=".Company.CmpEditProfileLocActivity" />
+        <activity android:name=".Company.CmpEditProfileActivity" />
+        <activity android:name=".Guest.GuestHomeActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
