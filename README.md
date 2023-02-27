@@ -19,6 +19,8 @@ Evento is an android application that is beneficial for people looking to conduc
 Both the user and event management companies can log in to the system using their registered phone number and password.
 #### Register
 To enter the system user and company should register first. Requirements of registration are first name/company name, last name, username, email id, password, and phone number.
+#### Guest
+Anyone can use the app using guest mode. But to book or chat with any event organizers, they need to log in to the application.
 #### Forgot Password
 If the user forgot the password, the user can send a reset link to the mail id to reset the password.
 #### Logout
@@ -69,6 +71,62 @@ This will be updated as the program evolves.
 <img src="https://i.imgur.com/qBIXVYu.png" width="200" height="422">
 <img src="https://i.imgur.com/kyandpw.png" width="200" height="422">
 <img src="https://i.imgur.com/md6T6Y5.png" width="200" height="422">
+</p>
+<br>
+
+#### User Registration
+
+<br>
+<p align="center">
+<img src="https://i.imgur.com/u9gZWbq.png" width="200" height="422">
+<img src="https://i.imgur.com/lbSSQcr.png" width="200" height="422">
+</p>
+<br>
+
+#### User Functions
+
+<br>
+<p align="center">
+<img src="https://i.imgur.com/T62PXd8.png" width="200" height="422">
+<img src="https://i.imgur.com/Bkx9N4h.png" width="200" height="422">
+<img src="https://i.imgur.com/zXf4NEl.png" width="200" height="422">
+<img src="https://i.imgur.com/9WXQwcQ.png" width="200" height="422">
+</p>
+<br>
+<br>
+<p align="center">
+ <img src="https://i.imgur.com/4JXUIpC.png" width="200" height="422">
+<img src="https://i.imgur.com/SaHN0sB.png" width="200" height="422">
+
+<img src="https://i.imgur.com/9yH9Gzj.png" width="200" height="422">
+<img src="https://i.imgur.com/JDoHiQ8.png" width="200" height="422">
+</p>
+<br>
+
+#### Chat Function
+
+<br>
+<p align="center">
+<img src="https://i.imgur.com/WAfBnYl.png" width="200" height="422">
+<img src="https://i.imgur.com/gOiECgP.png" width="200" height="422">
+</p>
+<br>
+
+
+#### Guest Mode
+
+<br>
+<p align="center">
+<img src="https://i.imgur.com/T62PXd8.png" width="200" height="422">
+<img src="https://i.imgur.com/Lr7AKCb.png" width="200" height="422">
+<img src="https://i.imgur.com/bsIVsjv.png" width="200" height="422">
+<img src="https://i.imgur.com/V758Sm4.png" width="200" height="422">
+</p>
+<br>
+
+<br>
+<p align="center">
+<img src="https://i.imgur.com/aZLvvsi.png" width="200" height="422">
 </p>
 <br>
 
