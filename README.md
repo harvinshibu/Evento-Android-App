@@ -63,7 +63,7 @@ This will be updated as the program evolves.
  </p>
 <br>
 
-#### Company Functions
+#### Edit Company Details / See Company Info / Add Packages / Booking
 
 <br>
 <p align="center">
@@ -74,7 +74,7 @@ This will be updated as the program evolves.
 </p>
 <br>
 
-#### User Registration
+#### User Registration / Forgot Password
 
 <br>
 <p align="center">
@@ -83,7 +83,7 @@ This will be updated as the program evolves.
 </p>
 <br>
 
-#### User Functions
+#### Home / Filter Companies / Company Details / Booking Confirmation
 
 <br>
 <p align="center">
@@ -93,11 +93,13 @@ This will be updated as the program evolves.
 <img src="https://i.imgur.com/9WXQwcQ.png" width="200" height="422">
 </p>
 <br>
+
+#### Account / Edit Profile / Change Password / About Us
+
 <br>
 <p align="center">
- <img src="https://i.imgur.com/4JXUIpC.png" width="200" height="422">
+<img src="https://i.imgur.com/4JXUIpC.png" width="200" height="422">
 <img src="https://i.imgur.com/SaHN0sB.png" width="200" height="422">
-
 <img src="https://i.imgur.com/9yH9Gzj.png" width="200" height="422">
 <img src="https://i.imgur.com/JDoHiQ8.png" width="200" height="422">
 </p>
@@ -113,7 +115,7 @@ This will be updated as the program evolves.
 <br>
 
 
-#### Guest Mode
+#### Guest Home / Guest Company Detailed Page / Guest Chat / Guest Booking / Guest Account
 
 <br>
 <p align="center">
